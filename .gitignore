@@ -10,6 +10,8 @@
 /tools/bootstrap/.cache
 !/.github
 !.editorconfig
+!/.git
+!/icon.png
 
 !/mods/systeams*
 !/mods/gtceu*
