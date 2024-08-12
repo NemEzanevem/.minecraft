@@ -11,6 +11,7 @@ StartupEvents.registry('item', e => {
     e.create('hot_iron_ingot')
     e.create('andesite_metal_compound')
     e.create('hot_hop_graphite_ingot').displayName('Hot HOP Graphite Ingot')
+    e.create('hot_gunmetal_ingot')
 })
 
 Platform.mods.kubejs.name = 'Custom Packadditions'
