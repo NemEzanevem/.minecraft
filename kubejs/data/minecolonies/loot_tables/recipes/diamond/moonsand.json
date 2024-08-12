@@ -1,0 +1,25 @@
+{
+    "pools": [
+      {
+        "bonus_rolls": 0.035,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 40
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mekanism:raw_osmium",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "ad_astra:raw_desh",
+            "weight": 10
+          }
+        ],
+        "rolls": 1.0
+      }
+    ],
+    "random_sequence": "minecolonies:recipes/diamond/soul_sand"
+  }

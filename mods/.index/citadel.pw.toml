@@ -1,0 +1,13 @@
+filename = 'citadel-2.5.6-1.20.1.jar'
+name = 'Citadel'
+side = 'both'
+
+[download]
+hash = '95f142b3fa1af8da4e76f9e7c5af10d4c75cced46a48100e372a6bcfa146c9b562928527299fa54660bf2feea73a2f4a1785db1bcae92e06504108057f17d314'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jJfV67b1/versions/lAATACbp/citadel-2.5.6-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'jJfV67b1'
+version = 'lAATACbp'

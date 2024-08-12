@@ -1,0 +1,13 @@
+filename = 'domum_ornamentum-1.20.1-1.0.196-BETA-universal.jar'
+name = 'Domum Ornamentum'
+side = 'both'
+
+[download]
+hash = '01be1da6ca72aba92eddbefdbc138135998dbde4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5610509
+project-id = 527361

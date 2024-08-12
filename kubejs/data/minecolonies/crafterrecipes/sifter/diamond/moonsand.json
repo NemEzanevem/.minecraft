@@ -1,0 +1,26 @@
+{
+    "type": "recipe",
+    "additional-output": [
+      {
+        "item": "minecolonies:sifter_mesh_diamond"
+      },
+      {
+        "item": "mekanism:raw_osmium"
+      },
+      {
+        "item": "ad_astra:raw_desh"
+      }
+    ],
+    "crafter": "sifter_custom",
+    "inputs": [
+      {
+        "item": "ad_astra:moon_sand"
+      },
+      {
+        "item": "minecolonies:sifter_mesh_diamond"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "loot-table": "minecolonies:recipes/diamond/moonsand",
+    "min-building-level": 5
+}

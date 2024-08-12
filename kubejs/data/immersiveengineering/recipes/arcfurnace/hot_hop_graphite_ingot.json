@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:arc_furnace","additives":[{"tag":"forge:dusts/redstone"}],"energy":141200,"input":{"tag":"forge:dusts/hop_graphite"},"results":[{"base_ingredient":{"item":"kubejs:hot_hop_graphite_ingot"},"count":1}],"time":200}

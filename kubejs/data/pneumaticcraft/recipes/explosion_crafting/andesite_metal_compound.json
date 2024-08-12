@@ -1,0 +1,12 @@
+{
+    "type": "pneumaticcraft:explosion_crafting",
+    "input": {
+      "item": "kubejs:andesite_metal_compound"
+    },
+    "loss_rate": 35,
+    "results": [
+      {
+        "item": "create:andesite_alloy"
+      }
+    ]
+  }

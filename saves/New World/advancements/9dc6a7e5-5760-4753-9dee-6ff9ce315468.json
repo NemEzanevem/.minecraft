@@ -1,0 +1,63 @@
+{
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2024-08-11 20:30:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-08-11 20:30:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-08-11 20:30:48 +0200"
+    },
+    "done": false
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2024-08-11 20:54:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2024-08-11 23:28:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-08-11 23:28:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2024-08-11 23:28:14 +0200"
+    },
+    "done": true
+  },
+  "adpother:recipes/tools/diamond_vacuum_tube": {
+    "criteria": {
+      "has_item": "2024-08-11 23:28:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2024-08-11 23:28:32 +0200"
+    },
+    "done": true
+  },
+  "mekanism:network_reader": {
+    "criteria": {
+      "network_reader": "2024-08-12 00:29:29 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

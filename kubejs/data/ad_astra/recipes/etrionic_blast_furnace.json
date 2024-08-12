@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "createbigcannons:steel_sliding_breechblock"
+    },
+    "B": {
+      "item": "immersiveengineering:blastfurnace_preheater"
+    },
+    "R": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    "###",
+    "RBR",
+    "###"
+  ],
+  "result": {
+    "item": "ad_astra:etrionic_blast_furnace"
+  },
+  "show_notification": true
+}

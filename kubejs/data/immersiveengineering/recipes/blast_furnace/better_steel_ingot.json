@@ -1,0 +1,13 @@
+{
+    "type": "immersiveengineering:blast_furnace",
+    "input": {
+      "item": "kubejs:wrought_iron_ingot"
+    },
+    "result": {
+      "tag": "forge:ingots/steel"
+    },
+    "slag": {
+      "tag": "forge:slag"
+    },
+    "time": 1700
+  }

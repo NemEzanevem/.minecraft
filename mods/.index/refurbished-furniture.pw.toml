@@ -1,0 +1,13 @@
+filename = 'refurbished_furniture-forge-1.20.1-1.0.3.jar'
+name = "MrCrayfish's Furniture Mod: Refurbished"
+side = 'both'
+
+[download]
+hash = 'd46defbee28171d3a6094b3ee14f995060d5f77f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5570559
+project-id = 897116

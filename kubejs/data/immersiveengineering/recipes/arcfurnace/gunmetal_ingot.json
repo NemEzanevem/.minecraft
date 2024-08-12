@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:arc_furnace","additives":[{"tag":"forge:dusts/redstone"}],"energy":141200,"input":{"item":"pointblank:gunmetal_mesh"},"results":[{"base_ingredient":{"item":"kubejs:hot_gunmetal_ingot"},"count":1}],"time":200}
