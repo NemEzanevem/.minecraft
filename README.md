@@ -1,1 +1,1 @@
-# Top 10 Forge Modpack
+# Top 10 Proof Modpack
