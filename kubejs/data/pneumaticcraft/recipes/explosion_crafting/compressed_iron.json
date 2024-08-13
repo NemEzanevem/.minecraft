@@ -1,0 +1,12 @@
+{
+    "type": "pneumaticcraft:explosion_crafting",
+    "input": {
+      "item": "immersiveengineering:ingot_hop_graphite"
+    },
+    "loss_rate": 25,
+    "results": [
+      {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      }
+    ]
+  }

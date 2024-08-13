@@ -14,8 +14,20 @@ ServerEvents.recipes(event => {
     function NormalManaPoolRecipes(Output, Input, Manacost){
     event.recipes.botania.mana_infusion( Output, Input, Manacost)
     }
-    NormalManaPoolRecipes('botania:manasteel_ingot','createbigcannons:nethersteel_ingot', 1000)
+    NormalManaPoolRecipes('botania:manasteel_ingot','createbigcannons:nethersteel_ingot', 5000)
+    NormalManaPoolRecipes('botania:mana_diamond','pneumaticcraft:ingot_iron_compressed', 5000)
+    NormalManaPoolRecipes('botania:mana_pearl','ae2:fluix_pearl', 5000)
+
+
 })
+
+ServerEvents.recipes(event => {
+    function PureDaisyRecipes(Output, Input){
+    event.recipes.botania.pure_daisy(Output, Input)
+    }
+    PureDaisyRecipes('botania:livingrock', '#forge:sheetmetals/steel')
+})
+
 
 ServerEvents.recipes(event => {
     event.remove({ id: 'bloodmagic:blood_rune_blank' })
@@ -26,4 +38,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'bloodmagic:blood_rune_capacity' })
     event.remove({ id: 'bloodmagic:blood_rune_aug_capacity' })
     event.remove({ id: 'botania:mana_infusion/manasteel'})
+    event.remove({ id: 'botania:mana_infusion/mana_diamond'})
+    event.remove({ id: 'botania:mana_infusion/mana_pearl'})
+    event.remove({ id: 'botania:pure_daisy/livingrock'})
+    event.remove({ id: 'botania:mana_pool'})
+    event.remove({ id: 'botania:diluted_pool'})
+    event.remove({ id: 'quark:tweaks/crafting/slab_to_block'})
 })

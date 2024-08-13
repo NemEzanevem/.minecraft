@@ -50,14 +50,14 @@ ServerEvents.recipes(event => {
     function CreateMillingRecipes(Output, Input){
       event.recipes.create.milling(Output, Input)
     }
-    CreateMillingRecipes(Item.of('kubejs:limestone_dust').withChance(0.1), 'create:limestone')
+    CreateMillingRecipes(Item.of('kubejs:limestone_dust').withChance(0.5), 'create:limestone')
   })
 
   ServerEvents.recipes(event => {
     function CreateCrusingRecipes(Output, Input){
       event.recipes.create.crushing(Output, Input)
     }
-    CreateCrusingRecipes(Item.of('kubejs:limestone_dust').withChance(0.15), 'create:limestone')
+    CreateCrusingRecipes(Item.of('kubejs:limestone_dust'), 'create:limestone')
   })
 
   ServerEvents.recipes(event => {
@@ -101,4 +101,17 @@ ServerEvents.recipes(event => {
         event.recipes.create.pressing('createbigcannons:nethersteel_ingot', 'pointblank:gunmetal_mesh'),
         event.recipes.create.pressing('createbigcannons:nethersteel_ingot', 'pointblank:gunmetal_mesh')
     ]).transitionalItem('createbigcannons:nethersteel_ingot').loops(100)
+
+
+
+
+    event.recipes.create.mechanical_crafting('botania:mana_pool', [
+      'DAD',
+      'DDD'
+    ], {
+      D: 'botania:livingrock',
+      A: 'pneumaticcraft:printed_circuit_board',
+      C: ''
+    })
   })
+

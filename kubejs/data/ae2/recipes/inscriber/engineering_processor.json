@@ -1,0 +1,18 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "item": "ae2:printed_silicon"
+    },
+    "middle": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "top": {
+      "item": "ae2:printed_engineering_processor"
+    }
+  },
+  "mode": "press",
+  "result": {
+    "item": "ae2:engineering_processor"
+  }
+}

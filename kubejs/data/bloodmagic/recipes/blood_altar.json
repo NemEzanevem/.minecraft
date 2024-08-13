@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "D": {
+        "item": "pneumaticcraft:compressed_stone"
+      },
+      "A": {
+        "item": "botania:manasteel_ingot"
+      },
+      "S": {
+        "item": "immersiveengineering:blastbrick_reinforced"
+      }
+    },
+    "pattern": [
+      "D D",
+      "DSD",
+      "AAA"
+    ],
+    "result": {
+      "item": "bloodmagic:altar"
+    },
+    "show_notification": true
+  }
